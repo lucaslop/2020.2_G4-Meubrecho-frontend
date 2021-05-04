@@ -26,13 +26,13 @@ export const Header = styled.div`
   font-size: 18px;
 
   img {
-    max-width: 60%;
-    max-height: 60%;
+    max-width: 40%;
+    max-height: 40%;
   }
 
   h1 {
     color: #ffff;
-    margin-left: 15px;
+    margin-left: -45px;
   }
 `;
 

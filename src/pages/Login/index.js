@@ -2,7 +2,7 @@ import React from 'react';
 
 import { Container, Header, Content, Texto } from './styles';
 import LoginFoto from '../../assets/loginfoto.png';
-import Logo from '../../assets/cart.png';
+import Logo from '../../assets/carrinho.svg';
 import { Form, Input } from '@rocketseat/unform';
 import { Link } from 'react-router-dom';
 import * as Yup from 'yup';

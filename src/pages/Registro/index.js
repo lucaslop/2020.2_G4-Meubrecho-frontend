@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import { Container, Inicio, Final, Header, Conteudo, Termos } from './styles';
 import { Form, Input } from '@rocketseat/unform';
 import { Link } from 'react-router-dom';
-import Logo from '../../assets/cart.png';
+import Logo from '../../assets/carrinho.svg';
 import Foto from '../../assets/Foto.png';
 import * as Yup from 'yup';
 import { useDispatch } from 'react-redux';

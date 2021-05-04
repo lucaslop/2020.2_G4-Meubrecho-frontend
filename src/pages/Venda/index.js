@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import history from '../../services/history';
 import CircularProgress from '@material-ui/core/CircularProgress';
 
 import Item from '../../components/item/item';
@@ -22,7 +23,7 @@ function Venda() {
         .then(response => {
           if (response.status == 401) {
             localStorage.clear();
-            location.href = '/';
+            history.push('/');
             throw 'permission error';
           }
           return response.json();

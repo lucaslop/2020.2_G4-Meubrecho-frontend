@@ -35,18 +35,20 @@ export const Header = styled.div`
   margin: 2%;
 
   img {
-    max-width: 65%;
-    max-height: 65%;
+    max-width: 25%;
+    max-height: 25%;
+    margin-right: -40px;
   }
 
   text {
     color: #fff;
     font-size: 30px;
-    margin-left: 1%;
+    margin-left:0px;
+  
   }
 
   h1 {
-    margin: 0 auto;
+    margin: 0%  10%;
     color: #ffff;
     font-size: 50px;
   }
@@ -54,9 +56,7 @@ export const Header = styled.div`
 
 export const Conteudo = styled.div`
   img {
-    max-width: 50%;
-    max-height: 40%;
-    margin-left: 25%;
+    margin-left:30%;
   }
 `;
 
