@@ -23,7 +23,7 @@ function ListaProdutos({ filters, name }) {
         .then(response => {
           if (response.status == 401) {
             localStorage.clear();
-            location.href = '/';
+            window.location.href = '/register';
             throw 'permission error';
           }
           return response.json();
